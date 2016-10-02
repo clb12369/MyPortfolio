@@ -1,0 +1,25 @@
+* {
+    &, &:before, &:after {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    background-color: ivory;
+}
+
+.navbar-wrapper {
+    
+    .container {
+        width: 100%;
+    }
+    /*background-color: #708090;*/
+    /*color: #fff;*/
+}
+
+#myCarousel {
+    min-height: 60vh;
+    background-color: #5f9ea0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
