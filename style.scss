@@ -10,16 +10,57 @@ body {
 
 .navbar-wrapper {
     
+    
     .container {
+        /*position: fixed;
+        z-index: 1;
+        top: 0;
         width: 100%;
+        padding-left: 0;
+        padding-right: 0;*/
+
     }
-    /*background-color: #708090;*/
-    /*color: #fff;*/
+    /*background-color: #708090;
+    color: #fff;*/
 }
 
 #myCarousel {
-    min-height: 60vh;
+    min-height: 50vh;
     background-color: #5f9ea0;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
 }
+
+/*.container*/ 
+.marketing {
+    display: inline-block;
+    left: 0;
+    margin-left: 2rem;
+    margin-right: 0;
+    width: 73%;
+}
+
+.blog-main {
+
+    display: inline-block;
+    width: 25%;
+    top: 0;
+    float: right;
+
+}
+
+
+.footer {
+    bottom: 0;
+}
+
+/*.container .marketing {
+    display: inline-block;
+    margin-left: 10rem;
+}*/
+
+/*.blog-main {
+    display: inline-block;
+    width: 25%;
+    right: 0;
+}*/
